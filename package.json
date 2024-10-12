@@ -1,0 +1,34 @@
+{
+  "name": "random-headers",
+  "version": "1.0.0",
+  "description": "Generates random HTTP headers and user-agents that mimic a real browser.",
+  "homepage": "https://github.com/iNadeemDev/random-headers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iNadeemDev/random-headers.git"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "random-headers": "./bin/randomHeaders.js",
+    "random-user-agent": "./bin/randomUserAgent.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "random-headers",
+    "http-headers",
+    "user-agents",
+    "requests-headers",
+    "fake-headers",
+    "random-user-agent",
+    "random-headers-generator",
+    "scraping"
+  ],
+  "author": {
+    "name": "Muhammad Nadeem",
+    "email": "nadeemdsb5@gmail.com"
+  },
+  "license": "MIT"
+}
